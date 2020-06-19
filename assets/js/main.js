@@ -57,6 +57,17 @@
     }
   });
 
+  // Effect Card 
+
+  // $(document).ready(function(){
+  //   $("#effect-slide").hover(function(){
+  //     $(this).parent().children("h4").child().css('color', 'transparent').css('transition', 'all 5s');
+  //      console.log($(this).parent().children("h4").eq(0)[0]);
+  //     }, function(){
+      
+  //   });
+  // });
+
   // Mobile Navigation
   if ($('.nav-menu').length) {
     var $mobile_nav = $('.nav-menu').clone().prop({

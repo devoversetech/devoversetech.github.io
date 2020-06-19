@@ -292,6 +292,170 @@ h6 {
   }
 }
 
+#projects {
+  margin-left: 25px;
+}
+
+#projects a i {
+  font-size: 18px;
+  color: #263238;
+  font-weight: 200;
+}
+
+#projects_heading {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#effect-slide {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  opacity: 0.5;
+  top: 0;
+  right: 0;
+}
+
+#effect-slide:hover {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 0px;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+}
+
+#effect-slide:hover + .icon svg path {
+  transition: all 1s;
+  fill: white;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+}
+
+/* #effect-slide:hover {
+  transition: all 1s;
+  color: white;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+} */
+
+/* #effect-slide:hover + p {
+  transition: all 1s;
+  color: white !important;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+} */
+
+#effect-slide:hover + .icon #icon-color-1 {
+  transition: all 1s;
+  color: #47aeff;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+}
+
+#effect-slide:hover + .icon #icon-color-2 {
+  transition: all 1s;
+  color: #ffa76e;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+}
+
+#effect-slide:hover + .icon #icon-color-3 {
+  transition: all 1s;
+  color: #e80368;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+}
+
+#effect-slide:hover + .icon #icon-color-4 {
+  transition: all 1s;
+  color: #ffbb2c;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+}
+
+#effect-slide:hover + .icon #icon-color-5 {
+  transition: all 1s;
+  color: #ff5828;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+}
+
+#effect-slide:hover + .icon #icon-color-6 {
+  transition: all 1s;
+  color: #11dbcf;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+}
+
+#effect-slide:not(:hover) {
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+}
+
+.tech-name {
+  /* width: 100%;
+  height: 100%; */
+  background-color: #17b57d;
+}
+
+.color-1 {
+  background-color: #47aeff;
+}
+
+.color-2 {
+  background-color: #ffa76e;
+}
+
+.color-3 {
+  background-color: #e80368;
+}
+
+.color-4 {
+  background-color: #ffbb2c;
+}
+
+.color-5 {
+  background-color: #ff5828;
+}
+
+.color-6 {
+  background-color: #11dbcf;
+}
+
+#effect-slide-parent {
+  position: relative;
+}
+
 /* Get Startet Button */
 .get-started-btn {
   margin-left: 25px;
@@ -435,11 +599,11 @@ h6 {
   position: relative;
   padding: 120px 0 0 0;
   background: linear-gradient(
-    45deg,
-    rgba(86, 58, 250, 0.9) 0%,
-    rgba(116, 15, 214, 0.9) 100%
-  ),
-  url("../img/hero-bg.jpg") center center no-repeat;
+      45deg,
+      rgba(86, 58, 250, 0.9) 0%,
+      rgba(116, 15, 214, 0.9) 100%
+    ),
+    url("../img/hero-bg.jpg") center center no-repeat;
   background-size: cover;
 }
 
@@ -632,7 +796,6 @@ h6 {
   }
 }
 
-
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -762,7 +925,7 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .icon-box {
+/* .services .icon-box {
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
@@ -889,6 +1052,354 @@ section {
 
 .services .iconbox-teal:hover .icon path {
   fill: #11dbcf;
+} */
+
+#card-col {
+  margin-top: 15px;
+}
+
+.services .icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.services #tech_html::before {
+  content: "";
+  position: absolute;
+  background: #fabbaa;
+  right: -60px;
+  top: -40px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  transition: all 0.3s;
+  z-index: -1;
+}
+
+.services #tech_html:hover::before {
+  background: #e34f26;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+}
+
+.services #tech_css::before {
+  content: "";
+  position: absolute;
+  background: #8dc5ec;
+  right: -60px;
+  top: -40px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  transition: all 0.3s;
+  z-index: -1;
+}
+
+.services #tech_css:hover::before {
+  background: #2552e1;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+}
+
+.services #tech_js::before {
+  content: "";
+  position: absolute;
+  background: #f8ea80;
+  right: -60px;
+  top: -40px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  transition: all 0.3s;
+  z-index: -1;
+}
+
+.services #tech_js:hover::before {
+  background: #f7df1e;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+}
+
+.services #tech_ts::before {
+  content: "";
+  position: absolute;
+  background: #87cdff;
+  right: -60px;
+  top: -40px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  transition: all 0.3s;
+  z-index: -1;
+}
+
+.services #tech_ts:hover::before {
+  background: #0090f7;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+}
+
+.services #tech_node::before {
+  content: "";
+  position: absolute;
+  background: #9fff9f;
+  right: -60px;
+  top: -40px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  transition: all 0.3s;
+  z-index: -1;
+}
+
+.services #tech_node:hover::before {
+  background: #339933;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+}
+
+.services #tech_git::before {
+  content: "";
+  position: absolute;
+  background: #fabbaa;
+  right: -60px;
+  top: -40px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  transition: all 0.3s;
+  z-index: -1;
+}
+
+.services #tech_git:hover::before {
+  background: #e34f26;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+}
+
+.services #tech_digital_ocean::before {
+  content: "";
+  position: absolute;
+  background: #92ff82;
+  right: -60px;
+  top: -40px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  transition: all 0.3s;
+  z-index: -1;
+}
+
+.services #tech_digital_ocean:hover::before {
+  background: #3b962d;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+}
+
+.services #tech_flutter::before {
+  content: "";
+  position: absolute;
+  background: #77bafd;
+  right: -60px;
+  top: -40px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  transition: all 0.3s;
+  z-index: -1;
+}
+
+.services #tech_flutter:hover::before {
+  background: #47c5fb;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+}
+
+.services #tech_php::before {
+  content: "";
+  position: absolute;
+  background: #77bafd;
+  right: -60px;
+  top: -40px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  transition: all 0.3s;
+  z-index: -1;
+}
+
+.services #tech_php:hover::before {
+  background: #03569b;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+}
+
+.services #tech_sequelize::before {
+  content: "";
+  position: absolute;
+  background: #77bafd;
+  right: -60px;
+  top: -40px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  transition: all 0.3s;
+  z-index: -1;
+}
+
+.services #tech_sequelize:hover::before {
+  background: #03569b;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+}
+
+.services #tech_aws::before {
+  content: "";
+  position: absolute;
+  background: rgb(248, 194, 112);
+  right: -60px;
+  top: -40px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  transition: all 0.3s;
+  z-index: -1;
+}
+
+.services #tech_aws:hover::before {
+  background: rgb(255, 153, 0);
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+}
+
+.services #tech_firebase::before {
+  content: "";
+  position: absolute;
+  background: #f1d176;
+  right: -60px;
+  top: -40px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  transition: all 0.3s;
+  z-index: -1;
+}
+
+.services #tech_firebase:hover::before {
+  background: #fcca3f;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+}
+
+.services .icon {
+  margin: 0 auto 20px auto;
+  padding-top: 10px;
+  display: inline-block;
+  text-align: center;
+  /* border-radius: 50%; */
+  width: 60px;
+  height: 60px;
+  background: #17b57d00;
+  transition: all 0.3s ease-in-out;
+}
+
+.services .icon i {
+  font-size: 36px;
+  line-height: 1;
+  color: #fff;
+}
+
+.services .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.services .title a {
+  color: #111;
+}
+
+.services .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+.services .icon-box:hover .title a,
+.services .icon-box:hover .description {
+  color: #fff;
+}
+
+.services .icon-box:hover .icon svg:not(.android_svg):not(.seq_svg) path,
+.icon-box:hover .icon #seq_inner,
+.icon-box:hover .icon #android_inner {
+  fill: white;
+}
+
+/* .services .icon-box:hover .icon svg:not(.seq_svg) path {
+  fill: white;
+} */
+
+/* .seq_svg  */
+
+.services .icon-box:hover #firebase_inner,
+.icon-box:hover #flutter_inner,
+.icon-box:hover #php_inner {
+  fill: rgb(216, 216, 216);
+}
+
+.services .icon-box:hover #php_inner {
+  fill: #03569b;
+}
+
+.services .icon-box:hover .icon {
+  background: #fff00000;
+}
+
+.services .icon-box:hover .icon i {
+  color: #3498db;
 }
 
 /*--------------------------------------------------------------
