@@ -126,8 +126,22 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(24, 6, 185, 0.8);
+  background: black;
+  margin-top: 25px;
+  border-radius: 200px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  box-shadow: 0 2px 4px 1px;
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
   padding: 12px 0;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  -ms-border-radius: 200px;
+  -o-border-radius: 200px;
 }
 
 #header .logo {
@@ -486,7 +500,7 @@ h6 {
 .mobile-nav-toggle {
   position: fixed;
   right: 15px;
-  top: 15px;
+  top: 45px;
   z-index: 9998;
   border: 0;
   background: none;
@@ -504,7 +518,7 @@ h6 {
 
 .mobile-nav {
   position: fixed;
-  top: 55px;
+  top: 85px;
   right: 15px;
   bottom: 15px;
   left: 15px;
