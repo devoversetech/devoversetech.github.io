@@ -874,10 +874,26 @@ section {
 }
 
 .about .content ul i {
-  font-size: 20px;
+  font-size: 17px;
   padding-right: 4px;
   color: #5846f9;
+  font-weight: 300;
 }
+
+.about .content ul i a {
+  color: black;
+}
+
+/* .about .content ul i:hover {
+  font-size: 25px;
+  color: #5846f9;
+  /* font-weight: 400; */
+  /* transition: all 0.45s;
+  -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -ms-transition: all 0.45s;
+  -o-transition: all 0.45s;
+}  */
 
 .about .content p:last-child {
   margin-bottom: 0;
