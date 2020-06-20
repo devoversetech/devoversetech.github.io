@@ -126,11 +126,55 @@
     });
   });
 
+  // $(window).scroll(function() {
+  //   // console.log($(this).scrollTop());
+  //   if ($(this).scrollTop() > 580) {
+  //     $('.header-scrolled').css('background-color', '#8254EA').css('transition', 'all 0.5s');
+  //   }
+
+  //   if ($(this).scrollTop() < 580) {
+  //     $('.header-scrolled').css('background-color', 'black').css('transition', 'all 1s');
+  //   }
+
+  //   if ($(this).scrollTop() < 100) {
+  //     $('.header-scrolled').css('background-color', 'transparent').css('transition', 'all 1s');
+  //   }
+
+  //   if ($(this).scrollTop() > 1275) {
+  //     $('.header-scrolled').css('background-color', '#39cefd').css('transition', 'all 0.5s');
+  //   }
+
+  //   if ($(this).scrollTop() > 2627) {
+  //     $('.header-scrolled').css('background-color', '#01579B').css('transition', 'all 0.5s');
+  //   }
+
+  //   if ($(this).scrollTop() > 3510) {
+  //     $('.header-scrolled').css('background-color', '#546E7A').css('transition', 'all 0.5s');
+  //   }
+
+  //   if ($(this).scrollTop() > 4222) {
+  //     $('.header-scrolled').css('background-color', '#FF4081').css('transition', 'all 0.5s');
+  //   }
+
+  //   if ($(this).scrollTop() > 5700) {
+  //     $('.header-scrolled').css('background-color', '#00C853').css('transition', 'all 0.5s');
+  //   }
+
+  //   if ($(this).scrollTop() > 6504) {
+  //     $('.header-scrolled').css('background-color', '#004D40').css('transition', 'all 0.5s');
+  //   }
+
+  //   if ($(this).scrollTop() > 7428) {
+  //     $('.header-scrolled').css('background-color', '#212121').css('transition', 'all 0.5s');
+  //   }
+
+  // });
+
   // Toggle .header-scrolled class to #header when page is scrolled
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('#header').addClass('header-scrolled');
-    } else {
+    } else  {
       $('#header').removeClass('header-scrolled');
     }
   });
