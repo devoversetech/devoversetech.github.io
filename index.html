@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <script src="https://use.fontawesome.com/36958e666e.js"></script>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -44,8 +45,9 @@
     <div class="container-fluid">
 
       <div class="row justify-content-center">
-        <div class="col-xl-9 d-flex align-items-center">
+        <div id="navBar" class="col-xl-9 d-flex align-items-center">
           <h1 class="logo mr-auto"><a href="index.html">Devoverse</a></h1>
+          <!-- <div id="sizedBox"></div> -->
           <!-- Uncomment below if you prefer to use an image logo -->
           <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -78,7 +80,7 @@
             </ul>
           </nav><!-- .nav-menu -->
 
-          <a href="#about" class="get-started-btn scrollto">Get Started</a>
+          <a id="getStarted" href="#about" class="get-started-btn scrollto">Get Started</a>
         </div>
       </div>
 
@@ -122,54 +124,6 @@
     </svg>
 
   </section><!-- End Hero -->
-  <!-- <section id="hero" class="d-flex align-items-center">
-
-    <div class="container-fluid" data-aos="fade-up">
-      <div class="row justify-content-center">
-        <div class="col-xl-5 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <h1>Bettter Digital Experience With Devoverse</h1>
-          <h2>We are team of talanted developers creating websites and applications with Modern UI</h2>
-          <div><a href="#about" class="btn-get-started scrollto">Get Started</a></div>
-        </div>
-        <div class="col-xl-4 col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="150">
-          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
-        </div>
-      </div>
-    </div>
-    <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
-      <defs>
-        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
-      </defs>
-      <g class="wave1">
-        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
-      </g>
-      <g class="wave2">
-        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
-      </g>
-      <g class="wave3">
-        <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
-      </g>
-    </svg>
-  </section>End Hero -->
-
-  <!-- <div class="wave">
-    <div class="row justify-content-center">
-      <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
-        <defs>
-          <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
-        </defs>
-        <g class="wave1">
-          <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
-        </g>
-        <g class="wave2">
-          <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
-        </g>
-        <g class="wave3">
-          <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
-        </g>
-      </svg>
-    </div>
-  </div> -->
 
   <main id="main">
 
@@ -600,36 +554,358 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Features</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-            in iste officiis commodi quidem hic quas.</p>
+          <h2>Why Are We Worth Serving...</h2>
+          <p>We provide our clients <b>quality product over quantity.</b> Our products are designed in such a way that
+            is very
+            <b>user friendly and properly functional.</b> We also make sure that our product uses the limited resource
+            from
+            the user's device like,<b>battery consumption, R.A.M consumption, etc,</b> and give marvelous performance
+            accordingly. </p>
         </div>
 
         <div class="row">
           <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column align-items-lg-center">
             <div class="icon-box mt-5 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
-              <i class="bx bx-receipt"></i>
-              <h4>Est labore ad</h4>
-              <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+              <i id="featureIcon"><svg xmlns="http://www.w3.org/2000/svg" height="64" viewBox="0 0 512 512" width="64"
+                  fill="url(#grad1)">
+                  <defs>
+                    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                      <stop offset="0%" style="stop-color:#5846f9;stop-opacity:1" />
+                      <stop offset="100%" style="stop-color:#7b27d8;stop-opacity:1" />
+                    </linearGradient>
+                  </defs>
+                  <g>
+                    <path
+                      d="m360 8h-208a32.042 32.042 0 0 0 -32 32v432a32.042 32.042 0 0 0 32 32h208a32.042 32.042 0 0 0 32-32v-432a32.042 32.042 0 0 0 -32-32zm-66.56 16-4.5 16h-66.69l-4-16zm82.56 448a16.021 16.021 0 0 1 -16 16h-208a16.021 16.021 0 0 1 -16-16v-432a16.021 16.021 0 0 1 16-16h49.75l6.49 25.94a8 8 0 0 0 7.76 6.06h79a8 8 0 0 0 7.7-5.83l7.36-26.17h49.94a16.021 16.021 0 0 1 16 16z" />
+                    <path d="m216 456h-56a8 8 0 0 0 0 16h56a8 8 0 0 0 0-16z" />
+                    <path d="m248 456h-8a8 8 0 0 0 0 16h8a8 8 0 0 0 0-16z" />
+                    <path
+                      d="m284.116 209.14a8 8 0 0 0 -10.976 2.744l-48 80a8 8 0 1 0 13.72 8.232l48-80a8 8 0 0 0 -2.744-10.976z" />
+                    <path d="m310.247 211a8 8 0 0 0 -12.494 10l28 35-28 35a8 8 0 0 0 12.494 10l32-40a8 8 0 0 0 0-10z" />
+                    <path
+                      d="m201.753 301a8 8 0 1 0 12.494-10l-28-35 28-35a8 8 0 1 0 -12.494-10l-32 40a8 8 0 0 0 0 10z" />
+                  </g>
+                </svg></i>
+              <h4>Mobile App Development</h4>
+              <p id="paraStyle">If you are looking for a mobile application to be created, then we are the company to
+                help you. We
+                offers comprehensive mobility solutions, developing customized mobile apps catering to requirements of
+                each business.</p>
             </div>
             <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="200">
-              <i class="bx bx-cube-alt"></i>
-              <h4>Harum esse qui</h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+              <i id="featureIcon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                  id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
+                  xml:space="preserve" height="64" width="64" fill="url(#grad1)">
+                  <defs>
+                    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                      <stop offset="0%" style="stop-color:#5846f9;stop-opacity:1" />
+                      <stop offset="100%" style="stop-color:#7b27d8;stop-opacity:1" />
+                    </linearGradient>
+                  </defs>
+                  <g>
+                    <g>
+                      <path
+                        d="M473.6,0H38.4C17.229,0,0,17.229,0,38.4v435.2C0,494.771,17.229,512,38.4,512h435.2c21.171,0,38.4-17.229,38.4-38.4V38.4    C512,17.229,494.771,0,473.6,0z M494.933,473.6c0,11.767-9.566,21.333-21.333,21.333H38.4c-11.759,0-21.333-9.566-21.333-21.333    V38.4c0-11.768,9.574-21.333,21.333-21.333h435.2c11.759,0,21.333,9.566,21.333,21.333V473.6z" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M76.8,34.133H42.667c-4.71,0-8.533,3.814-8.533,8.533V76.8c0,4.719,3.823,8.533,8.533,8.533H76.8    c4.71,0,8.533-3.814,8.533-8.533V42.667C85.333,37.948,81.51,34.133,76.8,34.133z M68.267,68.267H51.2V51.2h17.067V68.267z" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M145.067,34.133h-34.133c-4.71,0-8.533,3.814-8.533,8.533V76.8c0,4.719,3.823,8.533,8.533,8.533h34.133    c4.71,0,8.533-3.814,8.533-8.533V42.667C153.6,37.948,149.777,34.133,145.067,34.133z M136.533,68.267h-17.067V51.2h17.067V68.267    z" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M213.333,34.133H179.2c-4.71,0-8.533,3.814-8.533,8.533V76.8c0,4.719,3.823,8.533,8.533,8.533h34.133    c4.71,0,8.533-3.814,8.533-8.533V42.667C221.867,37.948,218.044,34.133,213.333,34.133z M204.8,68.267h-17.067V51.2H204.8V68.267z    " />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M473.6,0H38.4C17.229,0,0,17.229,0,38.4v72.533c0,4.719,3.823,8.533,8.533,8.533h494.933c4.71,0,8.533-3.814,8.533-8.533    V38.4C512,17.229,494.771,0,473.6,0z M494.933,102.4H17.067v-64c0-11.768,9.574-21.333,21.333-21.333h435.2    c11.759,0,21.333,9.566,21.333,21.333V102.4z" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M125.5,164.634c-3.328-3.337-8.738-3.337-12.066,0L79.3,198.767c-3.337,3.336-3.337,8.73,0,12.066    c1.664,1.664,3.849,2.5,6.033,2.5c2.185,0,4.369-0.836,6.033-2.5L125.5,176.7C128.836,173.363,128.836,167.97,125.5,164.634z" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M159.633,198.767L125.5,164.634c-3.328-3.337-8.738-3.337-12.066,0c-3.337,3.337-3.337,8.73,0,12.066l34.133,34.133    c1.664,1.664,3.849,2.5,6.033,2.5c2.185,0,4.369-0.836,6.033-2.5C162.97,207.497,162.97,202.104,159.633,198.767z" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M176.7,147.567c-3.328-3.337-8.738-3.337-12.066,0L130.5,181.7c-3.337,3.337-3.337,8.73,0,12.066    c1.664,1.664,3.849,2.5,6.033,2.5c2.185,0,4.369-0.836,6.033-2.5l34.133-34.133C180.036,156.297,180.036,150.904,176.7,147.567z" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M210.833,181.7L176.7,147.567c-3.328-3.337-8.738-3.337-12.066,0c-3.337,3.337-3.337,8.73,0,12.066l34.133,34.133    c1.664,1.664,3.849,2.5,6.033,2.5c2.185,0,4.369-0.836,6.033-2.5C214.17,190.43,214.17,185.037,210.833,181.7z" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M204.8,273.067H68.267c-4.71,0-8.533,3.814-8.533,8.533c0,4.719,3.823,8.533,8.533,8.533H204.8    c4.71,0,8.533-3.814,8.533-8.533C213.333,276.881,209.51,273.067,204.8,273.067z" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M162.133,238.933H68.267c-4.71,0-8.533,3.814-8.533,8.533S63.556,256,68.267,256h93.867c4.71,0,8.533-3.814,8.533-8.533    S166.844,238.933,162.133,238.933z" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M364.433,164.634c-3.328-3.337-8.738-3.337-12.066,0l-34.133,34.133c-3.336,3.336-3.336,8.73,0,12.066    c1.664,1.664,3.849,2.5,6.033,2.5c2.185,0,4.369-0.836,6.033-2.5l34.133-34.133C367.77,173.363,367.77,167.97,364.433,164.634z" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M398.566,198.767l-34.133-34.133c-3.328-3.337-8.738-3.337-12.066,0c-3.337,3.337-3.337,8.73,0,12.066l34.133,34.133    c1.664,1.664,3.849,2.5,6.033,2.5c2.185,0,4.369-0.836,6.033-2.5C401.903,207.497,401.903,202.104,398.566,198.767z" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M415.633,147.567c-3.328-3.337-8.738-3.337-12.066,0L369.434,181.7c-3.336,3.337-3.336,8.73,0,12.066    c1.664,1.664,3.849,2.5,6.033,2.5c2.185,0,4.369-0.836,6.033-2.5l34.133-34.133C418.97,156.297,418.97,150.904,415.633,147.567z" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M449.766,181.7l-34.133-34.133c-3.328-3.337-8.738-3.337-12.066,0c-3.337,3.337-3.337,8.73,0,12.066l34.133,34.133    c1.664,1.664,3.849,2.5,6.033,2.5c2.185,0,4.369-0.836,6.033-2.5C453.103,190.43,453.103,185.037,449.766,181.7z" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M443.733,273.067H307.2c-4.71,0-8.533,3.814-8.533,8.533c0,4.719,3.823,8.533,8.533,8.533h136.533    c4.71,0,8.533-3.814,8.533-8.533C452.267,276.881,448.444,273.067,443.733,273.067z" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M401.067,238.933H307.2c-4.71,0-8.533,3.814-8.533,8.533S302.49,256,307.2,256h93.867c4.71,0,8.533-3.814,8.533-8.533    S405.777,238.933,401.067,238.933z" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M125.5,343.834c-3.328-3.337-8.738-3.337-12.066,0L79.3,377.967c-3.337,3.337-3.337,8.73,0,12.066    c1.664,1.664,3.849,2.5,6.033,2.5c2.185,0,4.369-0.836,6.033-2.5L125.5,355.9C128.836,352.563,128.836,347.17,125.5,343.834z" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M159.633,377.967L125.5,343.834c-3.328-3.337-8.738-3.337-12.066,0c-3.337,3.337-3.337,8.73,0,12.066l34.133,34.133    c1.664,1.664,3.849,2.5,6.033,2.5c2.185,0,4.369-0.836,6.033-2.5C162.97,386.697,162.97,381.303,159.633,377.967z" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M176.7,326.767c-3.328-3.337-8.738-3.337-12.066,0L130.5,360.9c-3.337,3.337-3.337,8.73,0,12.066    c1.664,1.664,3.849,2.5,6.033,2.5c2.185,0,4.369-0.836,6.033-2.5l34.133-34.133C180.036,335.497,180.036,330.103,176.7,326.767z" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M210.833,360.9L176.7,326.767c-3.328-3.337-8.738-3.337-12.066,0c-3.337,3.337-3.337,8.73,0,12.066l34.133,34.133    c1.664,1.664,3.849,2.5,6.033,2.5c2.185,0,4.369-0.836,6.033-2.5C214.17,369.63,214.17,364.237,210.833,360.9z" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M204.8,452.267H68.267c-4.71,0-8.533,3.814-8.533,8.533c0,4.719,3.823,8.533,8.533,8.533H204.8    c4.71,0,8.533-3.814,8.533-8.533C213.333,456.081,209.51,452.267,204.8,452.267z" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M162.133,418.133H68.267c-4.71,0-8.533,3.814-8.533,8.533s3.823,8.533,8.533,8.533h93.867c4.71,0,8.533-3.814,8.533-8.533    S166.844,418.133,162.133,418.133z" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M364.433,343.834c-3.328-3.337-8.738-3.337-12.066,0l-34.133,34.133c-3.336,3.337-3.336,8.73,0,12.066    c1.664,1.664,3.849,2.5,6.033,2.5c2.185,0,4.369-0.836,6.033-2.5l34.133-34.133C367.77,352.563,367.77,347.17,364.433,343.834z" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M398.566,377.967l-34.133-34.133c-3.328-3.337-8.738-3.337-12.066,0c-3.337,3.337-3.337,8.73,0,12.066l34.133,34.133    c1.664,1.664,3.849,2.5,6.033,2.5c2.185,0,4.369-0.836,6.033-2.5C401.903,386.697,401.903,381.303,398.566,377.967z" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M415.633,326.767c-3.328-3.337-8.738-3.337-12.066,0L369.434,360.9c-3.336,3.337-3.336,8.73,0,12.066    c1.664,1.664,3.849,2.5,6.033,2.5c2.185,0,4.369-0.836,6.033-2.5l34.133-34.133C418.97,335.497,418.97,330.103,415.633,326.767z" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M449.766,360.9l-34.133-34.133c-3.328-3.337-8.738-3.337-12.066,0c-3.337,3.337-3.337,8.73,0,12.066l34.133,34.133    c1.664,1.664,3.849,2.5,6.033,2.5c2.185,0,4.369-0.836,6.033-2.5C453.103,369.63,453.103,364.237,449.766,360.9z" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M443.733,452.267H307.2c-4.71,0-8.533,3.814-8.533,8.533c0,4.719,3.823,8.533,8.533,8.533h136.533    c4.71,0,8.533-3.814,8.533-8.533C452.267,456.081,448.444,452.267,443.733,452.267z" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M401.067,418.133H307.2c-4.71,0-8.533,3.814-8.533,8.533s3.823,8.533,8.533,8.533h93.867c4.71,0,8.533-3.814,8.533-8.533    S405.777,418.133,401.067,418.133z" />
+                    </g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                </svg></i>
+              <h4>Website Development</h4>
+              <p id="paraStyle">For those who want a unique website, then we can help you with that. We will use PHP,
+                Nodejs, and more
+                other technologies to make a stunning
+                site for you that fits all of your needs. We delivering end-to-end web app development as per
+                your requirement within agreed timelines.</p>
             </div>
             <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="300">
-              <i class="bx bx-images"></i>
-              <h4>Aut occaecati</h4>
-              <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+              <i id="featureIcon"><svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" enable-background="new 0 0 512 512" height="64"
+                  viewBox="0 0 512 512" width="64" fill="url(#grad1)">
+                  <defs>
+                    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                      <stop offset="0%" style="stop-color:#5846f9;stop-opacity:1" />
+                      <stop offset="100%" style="stop-color:#7b27d8;stop-opacity:1" />
+                    </linearGradient>
+                  </defs>
+                  <g>
+                    <g>
+                      <path
+                        d="m474.5 71.5h-26.261c-4.143 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5h26.261c12.406 0 22.5 10.094 22.5 22.5v34.5h-482v-34.5c0-12.406 10.093-22.5 22.5-22.5h377.809c4.143 0 7.5-3.357 7.5-7.5s-3.357-7.5-7.5-7.5h-377.809c-20.678 0-37.5 16.822-37.5 37.5v82.681c0 4.143 3.358 7.5 7.5 7.5s7.5-3.357 7.5-7.5v-33.181h482v193.366c0 4.143 3.357 7.5 7.5 7.5s7.5-3.357 7.5-7.5v-242.866c0-20.678-16.822-37.5-37.5-37.5z" />
+                      <path
+                        d="m504.5 375.994c-4.143 0-7.5 3.357-7.5 7.5v19.506c0 12.406-10.094 22.5-22.5 22.5h-437c-12.407 0-22.5-10.094-22.5-22.5v-179.133c0-4.143-3.358-7.5-7.5-7.5s-7.5 3.357-7.5 7.5v179.133c0 20.678 16.822 37.5 37.5 37.5h437c20.678 0 37.5-16.822 37.5-37.5v-19.506c0-4.142-3.357-7.5-7.5-7.5z" />
+                      <path
+                        d="m108.482 234.457c-2.929-2.928-7.678-2.928-10.606 0l-45.07 45.07c-1.407 1.407-2.197 3.314-2.197 5.304s.79 3.896 2.197 5.304l44.474 44.474c1.464 1.464 3.384 2.196 5.303 2.196s3.839-.732 5.303-2.196c2.929-2.93 2.929-7.678 0-10.607l-39.171-39.17 39.767-39.767c2.93-2.93 2.93-7.678 0-10.608z" />
+                      <path
+                        d="m209.344 334.608c1.464 1.464 3.384 2.196 5.303 2.196s3.839-.732 5.303-2.196l44.475-44.474c1.406-1.407 2.196-3.314 2.196-5.304s-.79-3.896-2.196-5.304l-45.071-45.07c-2.929-2.928-7.678-2.928-10.606 0-2.929 2.93-2.929 7.678 0 10.607l39.768 39.767-39.171 39.17c-2.93 2.931-2.93 7.679-.001 10.608z" />
+                      <path
+                        d="m131.99 362.234c3.025 0 5.876-1.844 7.013-4.841l53.294-140.398c1.47-3.873-.478-8.204-4.35-9.674-3.872-1.471-8.204.478-9.673 4.35l-53.294 140.4c-1.47 3.872.478 8.203 4.35 9.673.876.333 1.775.49 2.66.49z" />
+                      <path
+                        d="m33.006 115.371c0 12.406 10.093 22.5 22.5 22.5s22.5-10.094 22.5-22.5-10.093-22.5-22.5-22.5-22.5 10.094-22.5 22.5zm30 0c0 4.136-3.364 7.5-7.5 7.5s-7.5-3.364-7.5-7.5 3.364-7.5 7.5-7.5 7.5 3.364 7.5 7.5z" />
+                      <path
+                        d="m91.166 115.371c0 12.406 10.093 22.5 22.5 22.5s22.5-10.094 22.5-22.5-10.093-22.5-22.5-22.5-22.5 10.094-22.5 22.5zm30 0c0 4.136-3.364 7.5-7.5 7.5s-7.5-3.364-7.5-7.5 3.364-7.5 7.5-7.5 7.5 3.364 7.5 7.5z" />
+                      <path
+                        d="m149.325 115.371c0 12.406 10.093 22.5 22.5 22.5s22.5-10.094 22.5-22.5-10.093-22.5-22.5-22.5-22.5 10.094-22.5 22.5zm30 0c0 4.136-3.364 7.5-7.5 7.5s-7.5-3.364-7.5-7.5 3.364-7.5 7.5-7.5 7.5 3.364 7.5 7.5z" />
+                      <path
+                        d="m335.5 242.368h47c12.406 0 22.5-10.094 22.5-22.5s-10.094-22.5-22.5-22.5h-47c-12.406 0-22.5 10.094-22.5 22.5s10.094 22.5 22.5 22.5zm0-30h47c4.136 0 7.5 3.364 7.5 7.5s-3.364 7.5-7.5 7.5h-47c-4.136 0-7.5-3.364-7.5-7.5s3.364-7.5 7.5-7.5z" />
+                      <path
+                        d="m335.5 302.368h124c12.406 0 22.5-10.094 22.5-22.5s-10.094-22.5-22.5-22.5h-124c-12.406 0-22.5 10.094-22.5 22.5s10.094 22.5 22.5 22.5zm0-30h124c4.136 0 7.5 3.364 7.5 7.5s-3.364 7.5-7.5 7.5h-124c-4.136 0-7.5-3.364-7.5-7.5s3.364-7.5 7.5-7.5z" />
+                      <path
+                        d="m335.5 362.368h87.165c12.406 0 22.5-10.094 22.5-22.5s-10.094-22.5-22.5-22.5h-87.165c-12.406 0-22.5 10.094-22.5 22.5s10.094 22.5 22.5 22.5zm0-30h87.165c4.136 0 7.5 3.364 7.5 7.5s-3.364 7.5-7.5 7.5h-87.165c-4.136 0-7.5-3.364-7.5-7.5s3.364-7.5 7.5-7.5z" />
+                    </g>
+                  </g>
+                </svg></i>
+              <h4>Web App Development</h4>
+              <p id="paraStyle">If you want a web based software for your company, firm or organization then we are here
+                to help ou out. We use technologies like React Native, Nodejs, Angular, etc to give you the best of your
+                needs.</p>
             </div>
             <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="400">
-              <i class="bx bx-shield"></i>
-              <h4>Beatae veritatis</h4>
-              <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+              <i id="featureIcon"><svg xmlns="http://www.w3.org/2000/svg" height="64" viewBox="0 0 64 64" width="64" fill="url(#grad1)">
+                  <defs>
+                    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                      <stop offset="0%" style="stop-color:#5846f9;stop-opacity:1" />
+                      <stop offset="100%" style="stop-color:#7b27d8;stop-opacity:1" />
+                    </linearGradient>
+                  </defs>
+                  <g id="computer-keyboard-monitor-joystick-cpu">
+                    <path
+                      d="m35 2h-28a5 5 0 0 0 -5 5v20a5 5 0 0 0 5 5h10v4h-1a3.009 3.009 0 0 0 -3 3v2a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-2a3.009 3.009 0 0 0 -3-3h-1v-4h10a5 5 0 0 0 5-5v-20a5 5 0 0 0 -5-5zm-9 36a1 1 0 0 1 1 1v1h-12v-1a1 1 0 0 1 1-1zm-7-2v-4h4v4zm19-9a3.009 3.009 0 0 1 -3 3h-28a3.009 3.009 0 0 1 -3-3v-1h34zm0-3h-34v-17a3.009 3.009 0 0 1 3-3h28a3.009 3.009 0 0 1 3 3z" />
+                    <path
+                      d="m39 44h-36a1 1 0 0 0 -1 1v16a1 1 0 0 0 1 1h36a1 1 0 0 0 1-1v-16a1 1 0 0 0 -1-1zm-1 16h-34v-14h34z" />
+                    <path
+                      d="m59 2h-14a3.009 3.009 0 0 0 -3 3v34a3.009 3.009 0 0 0 3 3h14a3.009 3.009 0 0 0 3-3v-34a3.009 3.009 0 0 0 -3-3zm1 37a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1-1v-34a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1z" />
+                    <path
+                      d="m56 60v-3a1 1 0 0 0 -1-1h-2v-6.18a3 3 0 1 0 -2 0v6.18h-2a1 1 0 0 0 -1 1v3h-3v2h14v-2zm-4-14a1 1 0 1 1 -1 1 1 1 0 0 1 1-1zm2 14h-4v-2h4z" />
+                    <path d="m10 56h22v2h-22z" />
+                    <path
+                      d="m57 6h-10a1 1 0 0 0 -1 1v4a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-4a1 1 0 0 0 -1-1zm-1 4h-8v-2h8z" />
+                    <path
+                      d="m57 14h-10a1 1 0 0 0 -1 1v4a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-4a1 1 0 0 0 -1-1zm-1 4h-8v-2h8z" />
+                    <path d="m52 26a6 6 0 1 0 6 6 6.006 6.006 0 0 0 -6-6zm0 10a4 4 0 1 1 4-4 4 4 0 0 1 -4 4z" />
+                    <path d="m51 31h2v2h-2z" />
+                    <path d="m6 48h2v2h-2z" />
+                    <path d="m10 48h2v2h-2z" />
+                    <path d="m14 48h2v2h-2z" />
+                    <path d="m18 48h2v2h-2z" />
+                    <path d="m22 48h2v2h-2z" />
+                    <path d="m26 48h2v2h-2z" />
+                    <path d="m30 48h2v2h-2z" />
+                    <path d="m34 48h2v2h-2z" />
+                    <path d="m6 52h2v2h-2z" />
+                    <path d="m10 52h2v2h-2z" />
+                    <path d="m14 52h2v2h-2z" />
+                    <path d="m18 52h2v2h-2z" />
+                    <path d="m22 52h2v2h-2z" />
+                    <path d="m26 52h2v2h-2z" />
+                    <path d="m30 52h2v2h-2z" />
+                    <path d="m34 52h2v2h-2z" />
+                    <path d="m8 8h3v-2h-4a1 1 0 0 0 -1 1v4h2z" />
+                    <path d="m6 13h2v2h-2z" />
+                  </g>
+                </svg></i>
+              <h4>Desktop App Development</h4>
+              <p id="paraStyle">We also deal in desktop based softwares using 'ElectronJs'. We deliver the desktop apps
+                with awesome user experience features as well as with excellent functionality. Our product is completely
+                platform independent, it works on all kind of devices like Windwos, MAC, Linux, etc.</p>
             </div>
           </div>
-          <div class="image col-lg-6 order-1 order-lg-2 " data-aos="zoom-in" data-aos-delay="100">
+          <div class="image col-lg-6 order-1 order-lg-2 " data-aos="zoom-in" data-aos-delay="100" style="margin-top: 100px;">
             <img src="assets/img/features.svg" alt="" class="img-fluid">
           </div>
         </div>
