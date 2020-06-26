@@ -88,7 +88,7 @@
     });
     $("body").append($mobile_nav);
     $("body").prepend(
-      '<button id="sandwitch" style="margin-top: -25px;" type="button" class="mobile-nav-toggle d-lg-none"><i class="icofont-navigation-menu"></i></button>'
+      '<button id="sandwitch" style="margin-top: -25px; z-index: 20000;" type="button" class="mobile-nav-toggle d-lg-none"><i class="icofont-navigation-menu"></i></button>'
     );
     $("body").append('<div class="mobile-nav-overly"></div>');
 
