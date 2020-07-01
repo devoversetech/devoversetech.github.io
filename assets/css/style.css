@@ -1169,6 +1169,37 @@ canvas {
   }
 }
 
+@media (max-width: 540px) and (min-width: 416px) {
+  .mr-auto,
+  .mx-auto {
+    margin-right: 20px !important;
+  }
+
+  #navBar {
+    padding-left: 20px !important;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 824px) {
+  .mr-auto,
+  .mx-auto {
+    margin-right: 337px !important;
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+  }
+
+  #navBar {
+    padding-left: 20px !important;
+  }
+
+  #sandwitch {
+    margin-right: 50px;
+  }
+}
+
 @media (max-width: 568px) {
   #navBar {
     padding-left: 120px;
