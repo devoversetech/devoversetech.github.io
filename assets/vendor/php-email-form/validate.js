@@ -99,12 +99,13 @@ jQuery(document).ready(function($) {
     var email = form[0].email.value;
     var subject = form[0].subject.value;
     var message = form[0].message.value;
-    var json = {
+    var obj = {
       "name"    : name,
       "email"   : email,
       "subject" : subject, 
       "message" : message
     }
+    var json = JSON.stringify(obj)
     console.log(json);
 
 
@@ -122,7 +123,9 @@ jQuery(document).ready(function($) {
       type: "POST",
       url: action,
       data: json,
+      contentType: "application/json;charset=utf-8",
       success: function(msg) {
+        console.log(msg);
         if (msg == 'OK') {
           this_form.find('.loading').slideUp();
           this_form.find('.sent-message').slideDown();
