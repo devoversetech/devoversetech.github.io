@@ -3,7 +3,7 @@ jQuery(document).ready(function($) {
 
   //Contact
   $('form.php-email-form').submit(function() {
-   
+
     var f = $(this).find('.form-group'),
       ferror = false,
       emailExp = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;
@@ -94,12 +94,25 @@ jQuery(document).ready(function($) {
 
     var this_form = $(this);
     var action = $(this).attr('action');
+    var form = document.getElementsByClassName("php-email-form");    
+    var name = form[0].name.value;
+    var email = form[0].email.value;
+    var subject = form[0].subject.value;
+    var message = form[0].message.value;
+    var json = {
+      "name"    : name,
+      "email"   : email,
+      "subject" : subject, 
+      "message" : message
+    }
+    console.log(json);
+
 
     if( ! action ) {
       this_form.find('.loading').slideUp();
       this_form.find('.error-message').slideDown().html('The form action property is not set!');
       return false;
-    }
+    } 
     
     this_form.find('.sent-message').slideUp();
     this_form.find('.error-message').slideUp();
@@ -108,7 +121,7 @@ jQuery(document).ready(function($) {
     $.ajax({
       type: "POST",
       url: action,
-      data: str,
+      data: json,
       success: function(msg) {
         if (msg == 'OK') {
           this_form.find('.loading').slideUp();
