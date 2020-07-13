@@ -196,9 +196,11 @@
   $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
       $("#header").addClass("header-scrolled");
+      $("#logo-img").attr("src","assets/img/multicolor-logo-wide.png");
       $("#sandwitch").css("margin-top", "0").css("transition", "all 0.5s");
     } else {
       $("#header").removeClass("header-scrolled");
+      $("#logo-img").attr("src","/assets/img/white-logo-wide.png");
       $("#sandwitch").css("margin-top", "-25px").css("transition", "all 0.5s");
     }
   });
