@@ -169,6 +169,15 @@ h6 {
   #header .logo {
     font-size: 28px;
   }
+
+  #header .logo img {
+    max-height: 45px;
+  }
+
+  #getStarted {
+   display: none;
+  }
+
 }
 
 /*--------------------------------------------------------------
