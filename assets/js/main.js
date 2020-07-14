@@ -134,6 +134,15 @@
         bottom = top + $(this).outerHeight();
 
       if (cur_pos >= top && cur_pos <= bottom) {
+        
+        //To Load Iframe when in view
+        if($(this).attr("id") === "contact"){
+          if($("#gravity-frame").attr("src") === "about:blank"){
+            $("#gravity-frame").attr("src", $("#gravity-frame").attr("data-src"));
+          }
+        }
+        //////////////////////////////////////////////////
+
         if (cur_pos <= bottom) {
           main_nav.find("li").removeClass("active");
         }
