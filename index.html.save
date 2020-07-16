@@ -44,13 +44,13 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css?v=1.5" rel="stylesheet">
+  <link href="assets/css/style.css?v=1.3" rel="stylesheet">
 
   <!--=========================== OG Meta Tags=============================-->
     
   <meta property="og:title" content="Devoverse" />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://www.devoverse.com/assets/img/og-logo.png" />
+  <meta property="og:image" content="https://www.devoverse.com/assets/img/og-logo.jpg" />
   <meta property="og:site_name" content="Devoverse" />
   <meta property="og:description" content="Devoverse is the Developers' Universe. We are team of talented developers creating websites and applications with Modern UI" />
   
@@ -61,7 +61,7 @@
   <meta name="twitter:description" content="Devoverse is the Developers' Universe. We are team of talented developers creating websites and applications with Modern UI" />
   <meta name="twitter:title" content="Devoverse" />
   <meta name="twitter:site:id" content="@devoverse"/>
-  <meta name="twitter:image" content="https://www.devoverse.com/assets/img/og-logo.png" />
+  <meta name="twitter:image" content="https://www.devoverse.com/assets/img/og-logo.jpg" />
   <meta name="twitter:creator:id" content="@devoverse" />
   
   <!--=============================================================================================================================================-->
@@ -1615,7 +1615,7 @@
   <script src="assets/vendor/aos/aos.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js?v=1.5"></script>
+  <script src="assets/js/main.js?v=1.4"></script>
 
 </body>
 
