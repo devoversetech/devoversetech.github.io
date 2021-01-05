@@ -1,0 +1,22 @@
+<html>
+<!--<head>
+<h1>Response Time Check</h1>
+</head>-->
+<body>
+<pre id="json"></pre>
+<script>
+fetch('https://api.devoverse.com/get-all-projects')
+  .then(
+    function(response) {
+      //document.write(response.json());
+	console.log(response);
+      // Examine the text in the response
+      response.json().then(function(data) {
+	document.getElementById("json").textContent = JSON.stringify(data, undefined, 2);
+        //document.write(JSON.stringify(data[0]));
+	console.log(data);
+      });
+    });
+</script>
+</body>
+</html>
