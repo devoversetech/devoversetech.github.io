@@ -1505,7 +1505,7 @@
                 <div class="validate"></div>
               </div>
               <div class="form-group">
-                <div class="g-recaptcha" data-sitekey="6LcftSEaAAAAAL-Shpg8t2nQSPgFMaAfj0RoH6VV"></div>
+                <div class="g-recaptcha" data-callback="callback" data-error-callback="errorCallback" data-sitekey="6LcftSEaAAAAAL-Shpg8t2nQSPgFMaAfj0RoH6VV"></div>
               </div>
               <div class="mb-3">
                 <div class="loading">Loading</div>
@@ -1634,6 +1634,16 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js?v=1.5"></script>
 
+  <script>
+    function callback(params) {
+      console.log("CALLBACK");
+      console.log(params);
+    }
+    function errorCallback(params) {
+      console.log("ERROR CALLBACK");
+      console.log(params);
+    }
+  </script>
 
 </body>
 
