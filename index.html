@@ -48,7 +48,7 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css?v=1.5" rel="stylesheet">
+  <link href="assets/css/style.css?v=1.6" rel="stylesheet">
 
   <!--=========================== OG Meta Tags=============================-->
 
@@ -1481,7 +1481,7 @@
           </div>
 
           <div class="col-lg-6">
-            <form action="https://api.devoverse.com/contact-form" method="post" role="form" class="php-email-form">
+            <form action="https://api.devoverse.com/contact-form" onsubmit="return false" method="post" role="form" class="php-email-form">
               <div class="form-row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
@@ -1504,7 +1504,7 @@
                   data-msg="Please write something for us" placeholder="Message"></textarea>
                 <div class="validate"></div>
               </div>
-              <div class="form-group">
+              <div style="text-align: -webkit-center;" class="form-group">
                 <div class="g-recaptcha" data-callback="callback" data-error-callback="errorCallback" data-sitekey="6LcftSEaAAAAAL-Shpg8t2nQSPgFMaAfj0RoH6VV"></div>
               </div>
               <div class="mb-3">
@@ -1512,7 +1512,7 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button id="subBtn" type="button" onclick="checkCaptcha(this.getAttribute('type'))">Send Message</button></div>
             </form>
           </div>
 
@@ -1632,16 +1632,21 @@
   <script src="assets/vendor/aos/aos.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js?v=1.5"></script>
+  <script src="assets/js/main.js?v=1.6"></script>
 
   <script>
-    function callback(params) {
+    function callback(response) {
       console.log("CALLBACK");
-      console.log(params);
+      $("#subBtn").attr("type", "submit");
     }
     function errorCallback(params) {
       console.log("ERROR CALLBACK");
       console.log(params);
+    }
+    function checkCaptcha(value) {
+      if(value=="button"){
+        window.alert("Please check the I am not Robot first.");
+      }
     }
   </script>
 

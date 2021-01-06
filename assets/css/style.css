@@ -2369,7 +2369,7 @@ canvas {
   padding: 12px 15px;
 }
 
-.contact .php-email-form button[type="submit"] {
+.contact .php-email-form button {
   background: #5846f9;
   border: 0;
   padding: 10px 24px;
@@ -2378,7 +2378,7 @@ canvas {
   border-radius: 5px;
 }
 
-.contact .php-email-form button[type="submit"]:hover {
+.contact .php-email-form button:hover {
   background: #7b27d8;
 }
 
